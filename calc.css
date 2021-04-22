@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 :root{
-    --blue: #1e90ff;
+    --blue: #13dbd1d0;
     --fsinscreen: 35px;
     --ffincalc: 'Noto Sans JP', sans-serif;
 }
@@ -41,10 +41,31 @@ header{
     height: 20%;
     border: 1px black solid;
     font-size: var(--fsinscreen);
+   
 }
 .calc-button-container{
     width: 100%;
     height: 80%;
     border: 1px black solid;
+    
 
+}
+.calc-button-container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
+.calc-button-container button{
+    padding: 20px;
+    font-size: 1.2rem;
+    transition: .2s all linear;
+    background-color: rgb(87, 83, 83);
+}
+.calc-button-container button:hover{
+    background: #24cdd3dc;
+}
+.calc-button-container button:active{
+    background-color: #bdbdbd;
+}
+.del{
+    background-color: crimson;
 }
