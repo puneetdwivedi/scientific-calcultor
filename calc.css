@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 :root{
-    --blue: #1e90ff;
+    --blue: grey;
     --fsinscreen: 35px;
     --ffincalc: 'Noto Sans JP', sans-serif;
 }
@@ -38,13 +38,16 @@ header{
 }
 .calc-screen{
     width: 100%;
-    height: 20%;
+    height: 16%;
     border: 1px black solid;
     font-size: var(--fsinscreen);
+    text-align: end;
+    padding-top: 4%;
+    padding-right: 1%;
 }
 .calc-button-container{
     width: 100%;
-    height: 80%;
+    height: 84%;
     border: 1px black solid;
 
 }
