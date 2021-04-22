@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+:root{
+    --blue: #1e90ff;
+    --fsinscreen: 35px;
+    --ffincalc: 'Noto Sans JP', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    border: 1px black solid;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+}
+.maincontainer{
+    width: 100%;
+    height: 89vh;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculatorbody{
+    width: 35%;
+    height: 90%;
+    border: 1px black solid;
+
+}
+.calc-screen{
+    width: 100%;
+    height: 20%;
+    border: 1px black solid;
+    font-size: var(--fsinscreen);
+}
+.calc-button-container{
+    width: 100%;
+    height: 80%;
+    border: 1px black solid;
+
+}
